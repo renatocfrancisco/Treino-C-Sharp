@@ -19,14 +19,14 @@ namespace Exer23
             Array.Sort(n);
             Console.WriteLine("Largest  : {0}\nSmallest : {1}", n[n.Length - 1], n[0]);
 
-            ///-----------------
+            /*
             int[] arrayDeInteiros = new int[] { 0, 1, 1, 2, 3, 5, 8, 13 };
             foreach (int inteiro in arrayDeInteiros)
             {
                 Console.WriteLine(inteiro);
             }
             Console.Read();
-            ///------------------
+            */
             
 
         }

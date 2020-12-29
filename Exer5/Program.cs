@@ -8,14 +8,16 @@ namespace Exer5
         {
             // Valor acumulado = P * ((1+i)n -1)/i
             // i = taxa
-            // P = aplicação mensal
+            // p = aplicação mensal
             // n = número de meses(obs. (1 + i) elevado a n)
 
-            double taxa = double.Parse(Console.ReadLine());
-            double aplicMensal = double.Parse(Console.ReadLine());
-            int numMeses = int.Parse(Console.ReadLine());
+            Console.WriteLine("Inserir taxa, aplicação mensal e Nº de Meses");
+            double i = double.Parse(Console.ReadLine());
+            double p = double.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
 
-            //loading...
+            double valorAcumulado = p * ((Math.Pow(1 + i, n) - 1) / 1);
+            Console.WriteLine("Valor Acumulado: {0}", valorAcumulado);
         }
     }
 }
