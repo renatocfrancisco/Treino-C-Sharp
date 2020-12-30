@@ -6,6 +6,7 @@ namespace Exer6
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Insira um número: ");
             int num6 = int.Parse(Console.ReadLine());
             if (num6 > 20)
             {

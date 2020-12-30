@@ -6,6 +6,7 @@ namespace Exer36
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Digite 15 Idades: ");
             double[] faixaEtaria = new double[5];
             int idade;
 

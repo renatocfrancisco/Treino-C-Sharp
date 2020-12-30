@@ -6,12 +6,13 @@ namespace Exer17
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Insira dois números: ");
             int x = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());
 
             if (x < y)
             {
-                /// Console.WriteLine("{0}.{1}.{2}", mon, da, yer);
+                /// Console.WriteLine("{0}.{1}.{2}", var1, var2, etc);
                 Console.WriteLine("{0) {1}", x, y);
             }
             else

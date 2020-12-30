@@ -6,6 +6,7 @@ namespace Exer21
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Insira três números: ");
             int x = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());
             int z = int.Parse(Console.ReadLine());

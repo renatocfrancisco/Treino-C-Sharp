@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Exer22
 {
@@ -6,11 +7,12 @@ namespace Exer22
     {
         static void Main(string[] args)
         {
-            int x = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine());
-            int z = int.Parse(Console.ReadLine());
+            int[] numeros = new int[3];
+            int maior, interm, menor = 0;
 
+            Console.WriteLine("Insira três números inteiros: ");
 
+            
         }
     }
 }

@@ -6,17 +6,20 @@ namespace Exer8
     {
         static void Main(string[] args)
         {
+            int adicao = 0;
+            Console.WriteLine("Primero Número:");
             int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Segundo Número:");
             int y = int.Parse(Console.ReadLine());
+            adicao = x + y;
 
-            if (x + y > 20)
+            if (adicao > 20)
             {
-                int if1 = x + y + 8;
-                Console.WriteLine(if1);
-                if (if1 <= 20)
-                {
-                    Console.WriteLine(if1 + 5);
-                }
+                Console.WriteLine(adicao += 5);
+            }
+            else if (adicao <= 20)
+            {
+                Console.WriteLine(adicao += 5);
             }
         }
     }

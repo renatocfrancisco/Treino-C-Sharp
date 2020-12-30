@@ -6,6 +6,7 @@ namespace Exer13
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Coloque uma sigla de estado: ");
             string sigla = Console.ReadLine();
             switch (sigla)
             {

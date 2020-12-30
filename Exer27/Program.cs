@@ -6,6 +6,7 @@ namespace Exer27
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Inserir nome e valor da conta: ");
             string nome = Console.ReadLine();
             double valor = double.Parse(Console.ReadLine());
             

@@ -7,6 +7,7 @@ namespace Exer37
         static void Main(string[] args)
         {
             int t = 1;
+            Console.WriteLine("Tabuada do 1 ao 10");
             while (t <= 10)
             {
                 Console.WriteLine("===============");

@@ -6,6 +6,7 @@ namespace Exer26
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Inserir valor: ");
             double valor = double.Parse(Console.ReadLine());
             if (valor < 20)
             {

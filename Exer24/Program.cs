@@ -6,6 +6,7 @@ namespace Exer24
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Inserir Idade: ");
             int idade = int.Parse(Console.ReadLine());
 
             if (idade > 65)

@@ -6,7 +6,9 @@ namespace Exer7
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Primero Número:");
             int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Segundo Número:");
             int y = int.Parse(Console.ReadLine());
 
             if (x + y > 10)

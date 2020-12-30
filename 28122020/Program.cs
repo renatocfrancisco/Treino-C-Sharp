@@ -13,7 +13,7 @@ namespace _28122020
             double watts = double.Parse(Console.ReadLine());
 
             double cdWatt = 100 / (salario / 7);
-            Console.WriteLine("Valor de cada Watt: " + cdWatt);
+            Console.WriteLine("Valor de cada quilowatt: " + cdWatt);
 
             double pagar = cdWatt * watts;
             Console.WriteLine("Valor a ser pago: " + pagar);

@@ -6,6 +6,7 @@ namespace Exer16
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Insira dois números: ");
             int x = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());
 

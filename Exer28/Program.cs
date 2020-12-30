@@ -6,7 +6,7 @@ namespace Exer28
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Inserir número da placa: ");
             string placa = Console.ReadLine();
             char last = placa[placa.Length - 1];
             Console.WriteLine("Renovação no {0}º mês.", last);

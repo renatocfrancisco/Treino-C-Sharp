@@ -17,7 +17,8 @@ namespace Exer5
             int n = int.Parse(Console.ReadLine());
 
             double valorAcumulado = p * ((Math.Pow(1 + i, n) - 1) / 1);
-            Console.WriteLine("Valor Acumulado: {0}", valorAcumulado);
+            Console.WriteLine("Valor Acumulado: {0}", valorAcumulado.ToString("F"));
+            ///Está certo?
         }
     }
 }

@@ -6,6 +6,7 @@ namespace Exer35
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Digite 10 Idades: ");
             int count = 0;
             for (int i = 0; i < 10; i++)
             {

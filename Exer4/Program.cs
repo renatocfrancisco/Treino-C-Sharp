@@ -6,8 +6,9 @@ namespace Exer4
     {
         static void Main(string[] args)
         {
-            double despesas = double.Parse(Console.ReadLine());
-            Console.WriteLine("Gorjeta do Garçom: " + (despesas * 0.10));
+            Console.WriteLine("Valor gasto com desepesas: ");
+            double valor = double.Parse(Console.ReadLine());
+            Console.WriteLine("Gorjeta do Garçom: " + (valor * 0.10));
         }
     }
 }

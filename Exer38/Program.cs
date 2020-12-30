@@ -10,6 +10,7 @@ namespace Exer38
             List<double> aVista = new List<double>();
             List<double> aPrazo = new List<double>();
             int dec = 0;
+            double prestacao = 0;
 
             for (int i = 0; i < 15; i++)
             {
@@ -26,13 +27,14 @@ namespace Exer38
                     aPrazo.Add(double.Parse(Console.ReadLine()));
                 }
                 else { return; }
+
+                prestacao += (aPrazo[i] / 3);
             }
 
             Console.WriteLine("Compras à Vista: {0}", aVista.Count);
             Console.WriteLine("Compras à Prazo: {0}", aPrazo.Count);
             Console.WriteLine("Compras feitas: {0}", (aPrazo.Count + aVista.Count));
-
-            /// valor da primeira prestação das compras à prazo, sabendo-se que essa serão pagas em três vezes
+            Console.WriteLine("Valor da primeira prestação das compras à prazo: {0}", prestacao.ToString("F"));
         }
     }
 }

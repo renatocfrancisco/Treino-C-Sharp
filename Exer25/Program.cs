@@ -6,6 +6,7 @@ namespace Exer25
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Inserir duas notas: ");
             double pr1 = double.Parse(Console.ReadLine());
             double pr2 = double.Parse(Console.ReadLine());
 
