@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Exer21
 {
@@ -6,35 +7,50 @@ namespace Exer21
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Insira três números: ");
-            int x = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine());
-            int z = int.Parse(Console.ReadLine());
+            // Entrar com três números e imprimi-los em ordem decrescente (suponha números diferentes).
 
-            if (x > y && y > z)
+            Console.WriteLine("Insira três números: ");
+
+            List<int> lista = new List<int>();
+            int quant = 3;
+
+            for (int i = 0; i < quant; i++)
             {
-                Console.WriteLine("{0} {1} {2}", x, y, z);
+                lista.Add(int.Parse(Console.ReadLine()));
             }
-            else if (x > z && z > y)
+
+            lista.Sort();
+            lista.Reverse();
+
+            foreach (var item in lista)
             {
-                Console.WriteLine("{0} {1} {2}", x, z, y);
+                Console.Write("  " + item.ToString());
             }
-            else if (y > z && z > x)
-            {
-                Console.WriteLine("{0} {1} {2}", y, z, x);
-            }
-            else if (y > x && x > z)
-            {
-                Console.WriteLine("{0} {1} {2}", y, x, z);
-            }
-            else if (z > y && z > x)
-            {
-                Console.WriteLine("{0} {1} {2}", z, y, x);
-            }
-            else
-            {
-                Console.WriteLine("{0} {1} {2}", z, x, y);
-            }
+
+            //if (x > y && y > z)
+            //{
+            //    Console.WriteLine("{0} {1} {2}", x, y, z);
+            //}
+            //else if (x > z && z > y)
+            //{
+            //    Console.WriteLine("{0} {1} {2}", x, z, y);
+            //}
+            //else if (y > z && z > x)
+            //{
+            //    Console.WriteLine("{0} {1} {2}", y, z, x);
+            //}
+            //else if (y > x && x > z)
+            //{
+            //    Console.WriteLine("{0} {1} {2}", y, x, z);
+            //}
+            //else if (z > y && z > x)
+            //{
+            //    Console.WriteLine("{0} {1} {2}", z, y, x);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("{0} {1} {2}", z, x, y);
+            //}
         }
     }
 }

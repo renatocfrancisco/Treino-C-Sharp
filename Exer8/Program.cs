@@ -6,6 +6,11 @@ namespace Exer8
     {
         static void Main(string[] args)
         {
+//            8.Construir um algoritmo que leia dois números e efetue a adição. Caso o valor somado seja maior que 20,
+//                      este devera ser apresentado somando - se a ele mais 8; caso o valor somado seja menor ou igual a 20, este
+//                      devera ser apresentado subtraindo - se 5.
+
+
             int adicao = 0;
             Console.WriteLine("Primero Número:");
             int x = int.Parse(Console.ReadLine());
@@ -15,11 +20,13 @@ namespace Exer8
 
             if (adicao > 20)
             {
-                Console.WriteLine(adicao += 5);
+                adicao += 8;
+                Console.WriteLine(adicao);
             }
             else if (adicao <= 20)
             {
-                Console.WriteLine(adicao += 5);
+                adicao -= 5;
+                Console.WriteLine(adicao);
             }
         }
     }

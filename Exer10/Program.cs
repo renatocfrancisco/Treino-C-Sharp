@@ -7,6 +7,8 @@ namespace Exer10
         static void Main(string[] args)
         {
 
+            // Construir um algoritmo que indique se o número digitado esta compreendido entre 20 e 90 ou não.
+
             int x = int.Parse(Console.ReadLine());
             if (x > 20 && x < 90)
             {

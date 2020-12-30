@@ -6,8 +6,15 @@ namespace Exer13
     {
         static void Main(string[] args)
         {
+//            Entrar com a sigla do estado de uma pessoa imprimir uma das mensagens:
+                //• Carioca
+                //• Paulista
+                //• Mineiro
+                //• Outros estados
+
+
             Console.WriteLine("Coloque uma sigla de estado: ");
-            string sigla = Console.ReadLine();
+            string sigla = Console.ReadLine().ToUpper();
             switch (sigla)
             {
                 case "SP":

@@ -6,6 +6,8 @@ namespace Exer17
     {
         static void Main(string[] args)
         {
+            //Entrar com dois números e imprimi-los em ordem crescente (suponha números diferentes).
+
             Console.WriteLine("Insira dois números: ");
             int x = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());

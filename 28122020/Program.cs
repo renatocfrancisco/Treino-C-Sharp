@@ -6,19 +6,32 @@ namespace _28122020
     {
         static void Main(string[] args)
         {
+            /*
+            1. Antes do racionamento de energia ser decretado, quase ninguém falava em quilowatts; mas, agora, todos
+incorporaram essa palavra em seu vocabulário.Sabendo - se que 100 quilowatts de energia custa um sétimo do
+                salário mínimo, fazer um algoritmo que receba o valor do salário mínimo e a quantidade de quilowatts gasta
+                por uma residência e calcule. Imprima:
+                • O valor em reais de cada quilowatt
+                • O valor em reais a ser pago
+                • O novo valor a ser pago por essa residência com um desconto de 10 %
+            */
+
 
             Console.WriteLine("Salário Mínimo: ");
             double salario = double.Parse(Console.ReadLine());
             Console.WriteLine("Quantidade de Quilowatts");
             double watts = double.Parse(Console.ReadLine());
 
-            double cdWatt = 100 / (salario / 7);
-            Console.WriteLine("Valor de cada quilowatt: " + cdWatt);
+            double custoDe100qw = (salario / 7);
 
-            double pagar = cdWatt * watts;
-            Console.WriteLine("Valor a ser pago: " + pagar);
 
-            Console.WriteLine("Novo valor com um desconto de 10%: " + (pagar - pagar * 0.10));           
+            double cd1Watt = custoDe100qw / 100;
+            Console.WriteLine("Valor de cada quilowatt: " + cd1Watt.ToString("F"));
+
+            double pagar = cd1Watt * watts;
+            Console.WriteLine("Valor a ser pago: " + pagar.ToString("F"));
+
+            Console.WriteLine("Novo valor com um desconto de 10%: " + (pagar - pagar * 0.10).ToString("F"));           
 
         }
     }

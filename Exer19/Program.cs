@@ -6,6 +6,8 @@ namespace Exer19
     {
         static void Main(string[] args)
         {
+            //  Entrar com três números e imprimir o maior numero (suponha números diferentes)
+
             Console.WriteLine("Insira três números: ");
             int x = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());
