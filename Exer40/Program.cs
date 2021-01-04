@@ -31,10 +31,16 @@ namespace Exer40
 
             double media = 0;
 
-            for (int j = 0; j < pessoa.Length; j++)
+            //for (int j = 0; j < pessoa.Length; j++)
+            //{
+            //    media += pessoa[j].idade;
+            //}
+
+            foreach (var individuo in pessoa)
             {
-                media += pessoa[j].idade;
+                media += individuo.idade;
             }
+
             Console.WriteLine("Média: {0}", Math.Round(media / pessoa.Length));
             Console.WriteLine("Pessoas com + de 90 Kg: {0}: ", count);
 

@@ -11,16 +11,25 @@ namespace Exer39
            //- média das alturas das pessoas com idade entre 10 e 20 anos
            //- percentagem de pessoas com peso inferior a 40 quilos entre todas as pessoas analisadas
 
-            Pessoa[] pessoa = new Pessoa[2];
+            Pessoa[] pessoa = new Pessoa[25];
             int i = 0;
             int count = 0;
             double count2 = 0;
+            var x = new Random();
 
             while (i < pessoa.Length)
             {
                 pessoa[i] = new Pessoa();
                 Console.WriteLine("Insira a idade, altura e peso: ");
-                pessoa[i].Cadastrar(int.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
+
+
+                int rand1 = x.Next(5, 70);
+                int rand2 = x.Next(130, 200);
+                int rand3 = x.Next(30, 100);
+                pessoa[i].Cadastrar(rand1, rand2, rand3);
+
+                Console.WriteLine("{0} - {1} - {2} \n",pessoa[i].idade, pessoa[i].altura, pessoa[i].peso);
+
                 if (pessoa[i].idade > 50) { count++; }
                 if (pessoa[i].peso < 40) { count2++; }
                 i++;

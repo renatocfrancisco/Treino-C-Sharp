@@ -20,6 +20,10 @@ namespace Exer34
             double lucro = 0;
             const double cadaIngresso = 1.67;
 
+            double maxLucro = 0;
+            double maxPreco = 0;
+            double maxIngresso = 0;
+
             while (valorIngresso >= 1.0){
 
                 despesas = ingresso * cadaIngresso;
@@ -29,10 +33,20 @@ namespace Exer34
                 {
                     Console.WriteLine("Lucro Esperado: R${0} =  Preço do Ingressos: R${1} // Quantidade de Ingressos: {2}", lucro, valorIngresso, ingresso);
                 }
+
+                if(lucro > maxLucro)
+                {
+                    maxLucro = lucro;
+                    maxPreco = valorIngresso;
+                    maxIngresso = ingresso;
+                    //sem a formula/método de lucro máximo
+                }
                 
                 ingresso += 26;
                 valorIngresso -= 0.5;
             }
+            
+            Console.WriteLine("Lucro Máximo Esperado: R${0} com preço de R${1} com {2} ingressos.", maxLucro, maxPreco, maxIngresso);
         }
     }
 }
