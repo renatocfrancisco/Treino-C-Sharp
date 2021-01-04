@@ -13,9 +13,9 @@ namespace Exer30
 
             double soma = 1;
 
-            for (double i = 2; i < (n+1); i++)
+            for (int i = 2; i < (n + 1); i++)
             {
-                soma += (1 / i);
+                soma += (1.0 / i);
             }
             Console.WriteLine(soma.ToString("F"));
         }

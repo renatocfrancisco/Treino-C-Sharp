@@ -6,18 +6,19 @@ namespace Exer23
     {
         static void Main(string[] args)
         {
-            int[] n = new int[5];
-            for (int i = 0; i < n.Length; i++)
+            int[] numeros = new int[5];
+            for (int i = 0; i < numeros.Length; i++)
             {
                 string inp = "";
-                while (!int.TryParse(inp, out n[i]))
+                while (!int.TryParse(inp, out numeros[i]))
                 {
                     Console.Write("Enter number {0}: ", i + 1);
                     inp = Console.ReadLine();
                 }
             }
-            Array.Sort(n);
-            Console.WriteLine("Largest  : {0}\nSmallest : {1}", n[n.Length - 1], n[0]);
+
+            Array.Sort(numeros);
+            Console.WriteLine("Maior Valor : {0}\nMenor Valor : {1}", numeros[numeros.Length - 1], numeros[0]);
 
             /*
             int[] arrayDeInteiros = new int[] { 0, 1, 1, 2, 3, 5, 8, 13 };

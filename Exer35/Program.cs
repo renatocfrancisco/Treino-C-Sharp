@@ -6,6 +6,9 @@ namespace Exer35
     {
         static void Main(string[] args)
         {
+//            Faça um programa que receba a idade de dez pessoas e que calcule e mostre a quantidade de pessoas com
+//idade maior ou igual a 18 anos.
+
             Console.WriteLine("Digite 10 Idades: ");
             int count = 0;
             for (int i = 0; i < 10; i++)

@@ -6,6 +6,11 @@ namespace Exer39
     {
         static void Main(string[] args)
         {
+           //Faça um programa que receba a idade, altura e peso de 25 pessoas e calcule e mostre:
+           //- quantidade de pessoas com idade superior a 50 anos
+           //- média das alturas das pessoas com idade entre 10 e 20 anos
+           //- percentagem de pessoas com peso inferior a 40 quilos entre todas as pessoas analisadas
+
             Pessoa[] pessoa = new Pessoa[2];
             int i = 0;
             int count = 0;

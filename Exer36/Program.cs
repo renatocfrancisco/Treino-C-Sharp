@@ -6,7 +6,12 @@ namespace Exer36
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite 15 Idades: ");
+//            Faça um programa que receba idade de 15 pessoas e que calcule e mostre:
+                    //-a quantidade de pessoas em cada faixa etária
+                    //- a percentagem de pessoas na primeira e na última faixa etária, com relação ao total de pessoas.
+
+
+           Console.WriteLine("Digite 15 Idades: ");
             double[] faixaEtaria = new double[5];
             int idade;
 

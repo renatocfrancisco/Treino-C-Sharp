@@ -6,6 +6,11 @@ namespace Exer40
     {
         static void Main(string[] args)
         {
+           // Faça um programa que receba a idade e o peso de sete pessoas.Calcule e mostre:
+           //- a quantidade de pessoas com mais de 90 quilos
+           //- a média das idades das sete pessoas
+
+
             /// a quantidade de pessoas com mais de 90 quilos
             /// a média das idades das sete pessoas
             /// Veiculo[] veiculo = new Veiculo[2];

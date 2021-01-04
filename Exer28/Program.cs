@@ -6,6 +6,11 @@ namespace Exer28
     {
         static void Main(string[] args)
         {
+//            28.A policia rodoviária resolveu fazer cumprir a lei e cobrar dos motoristas a DUT.Sabendo - se que o mês em
+                //que o emplacamento do carro deve ser renovado é determinado pelo último número da placa do mesmo, criar
+                //um algoritmo que, a partir da leitura da placa do carro, informe o mês em que o emplacamento deve ser
+                //renovado.
+
             Console.WriteLine("Inserir número da placa: ");
             string placa = Console.ReadLine();
             char last = placa[placa.Length - 1];
