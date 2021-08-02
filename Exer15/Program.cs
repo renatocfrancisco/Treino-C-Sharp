@@ -13,6 +13,12 @@ namespace Exer15
             int y = int.Parse(Console.ReadLine());
 
             if (x > y)
+                Console.WriteLine(x);
+            else
+                Console.WriteLine(y);
+
+            /*
+            if (x > y)
             {
                 Console.WriteLine(x);
             }
@@ -20,6 +26,7 @@ namespace Exer15
             {
                 Console.WriteLine(y);
             }
+            */
         }
     }
 }
