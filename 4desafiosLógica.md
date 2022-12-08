@@ -11,6 +11,9 @@ Perguntou, então, ao último da fila qual a cor do seu chapéu e o sábio não 
 Quando chegou a vez do primeiro da fila, ele responde: "Majestade, o meu chapéu é branco!"
 Como foi possível ao sábio dar esta resposta de forma tão convicta?
 
+<details>
+<summary markdown="span">Resposta</summary>
+
 ```
 3 2 1
 
@@ -29,6 +32,8 @@ B N N -> O TERCEIRO TEM CERTEZA
 ? ? B
 ```
 
+</details>
+
 ## 2 - Os Guardiões das Portas
 
 Existem duas portas, uma que leva ao céu, e outra que leva ao inferno.
@@ -37,6 +42,9 @@ Você não sabe qual porta leva ao céu ou ao inferno, nem sabe quem fala verdad
 Não necessariamente o que fala mentira guarda a porta do inferno, e o que fala verdade guarda a porta do céu.
 Partindo disso, diga como proceder para passar pela porta que leva ao céu sendo que, você pode fazer uma única pergunta a somente um dos guardiões.
 Você só tem uma chance de perguntar, e se errar será jogado automaticamente no inferno.
+
+<details>
+<summary markdown="span">Resposta</summary>
 
 ```
 Se eu perguntar ao o outro guarda se a porta dele é a correta, o que ele me responderia?
@@ -54,12 +62,18 @@ SIM / NAO
 Avance pela porta do guarda que dizer SIM. 
 ```
 
+</details>
+
+
 ## 3 - Três Galões (ou Três Baldes)
 
 Você é proprietário de uma fonte inesgotável de água e a vende em galões de 3 e de 5 litros.
 Estes galões são irregulares, fazendo-se impossível calcular o volume incompleto somente olhando para eles.
 No final do expediente, o último cliente solicita 4 litros de água e ele só pode carregar um galão.
 Como você faria para entregar o que o cliente pediu?
+
+<details>
+<summary markdown="span">Resposta</summary>
 
 ```
 5L (3L)
@@ -75,6 +89,8 @@ Como você faria para entregar o que o cliente pediu?
 3L
 ```
 
+</details>
+
 ## 4 - Três canibais / Três missionários
 Três canibais e três missionários estão viajando juntos e chegam à margem de um rio.
 Eles desejam atravessar para a outra margem para, desta forma, continuar a viagem.
@@ -82,6 +98,9 @@ O único meio de transporte disponível é um barco que comporta no máximo duas
 Há uma outra dificuldade: em nenhum momento o número de canibais pode ser superior
 ao número de missionários pois desta forma os missionários estariam em grande perigo de vida.
 Como administrar a travessia?
+
+<details>
+<summary markdown="span">Resposta</summary>
 
 ```
 1° -> 2 pessoas NO MÁXIMO no barco
@@ -100,4 +119,4 @@ C C <- M M M C
 -> M M M C C C 
 ```
 
-https://gist.github.com/renatocfrancisco/dc193ab47162ff7fb27f74006066f86e
+</details>

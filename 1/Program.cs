@@ -1,0 +1,2 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Olá, Mundo!\nEu não sei qual era o primeiro exercício.\nEu gosto da ideia de deixar sua marca ou nome na internet. Criar um memorial, seja a memória boa ou ruim.");
